@@ -1,0 +1,163 @@
+<!DOCTYPE html>  
+<html lang="id">  
+<head>  
+<meta charset="UTF-8" />  
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>  
+<title>Kalea Bag - Koleksi Tas Elegan dan Trendy</title>  
+<style>  
+    body {  
+        font-family: 'Arial', sans-serif;  
+        margin: 0;  
+        padding: 0;  
+        background-color: #f4f4f4;  
+        color: #333;  
+    }  
+    /* Header */  
+    .header {  
+        background-color: #fff;  
+        padding: 20px;  
+        text-align: center;  
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);  
+    }  
+    .header h1 {  
+        margin: 0;  
+        font-size: 2.5em;  
+        color: #e44d26;  
+    }  
+    /* Hero section */  
+    .hero {  
+        background-color: #fff;  
+        padding: 40px 20px;  
+        text-align: center;  
+    }  
+    .hero h2 {  
+        font-size: 2em;  
+        margin-bottom: 10px;  
+        color: #555;  
+    }  
+    .hero p {  
+        font-size: 1.2em;  
+        margin-bottom: 20px;  
+    }  
+    .btn {  
+        background-color: #e44d26;  
+        color: white;  
+        padding: 15px 30px;  
+        text-decoration: none;  
+        font-size: 1.2em;  
+        border-radius: 5px;  
+        transition: background-color 0.3s;  
+    }  
+    .btn:hover {  
+        background-color: #c6391f;  
+    }  
+    /* Gallery */  
+    .gallery {  
+        display: flex;  
+        flex-wrap: wrap;  
+        justify-content: center;  
+        padding: 30px 20px;  
+    }  
+    .card {  
+        background: #fff;  
+        border-radius: 10px;  
+        box-shadow: 0 2px 8px rgba(0,0,0,0.15);  
+        margin: 15px;  
+        width: 250px;  
+        overflow: hidden;  
+        transition: transform 0.3s;  
+    }  
+    .card:hover {  
+        transform: translateY(-5px);  
+    }  
+    .card img {  
+        width: 100%;  
+        height: 200px;  
+        object-fit: cover;  
+    }  
+    .card h3 {  
+        margin: 10px 0 5px 0;  
+        font-size: 1.2em;  
+        padding: 0 10px;  
+    }  
+    /* Footer */  
+    .footer {  
+        background-color: #333;  
+        color: #fff;  
+        padding: 20px;  
+        text-align: center;  
+        font-size: 0.9em;  
+    }  
+    /* Pesan Nomor */  
+    .pesanNomor {  
+        margin: 30px 20px;  
+        padding: 20px;  
+        background-color: #fff;  
+        border-radius: 8px;  
+        text-align: center;  
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);  
+        font-size: 1.2em;  
+    }  
+    @media(max-width: 768px) {  
+        .gallery {  
+            flex-direction: column;  
+            align-items: center;  
+        }  
+        .card {  
+            max-width: 90%;  
+        }  
+    }  
+</style>  
+</head>  
+<body>  
+
+<!-- Header -->  
+<div class="header">  
+    <h1>Kalea</h1>  
+</div>  
+
+<!-- Hero Section -->  
+<div class="hero">  
+    <h2>Tampil Elegan dan Fashionable dengan Koleksi Tas Kalea</h2>  
+    <p>Nikmati berbagai pilihan tas trendy dan berkualitas tinggi. Dapatkan koleksi favoritmu sekarang!</p>  
+    <a href="#pesan" class="btn">Pesan Sekarang</a>  
+</div>  
+
+<!-- Galeri Tas -->  
+<div class="gallery" id="produk">  
+    <!-- Tas 1 -->  
+    <div class="card">  
+        <img src="https://images.unsplash.com/photo-1600517352037-8ddb4e6388bd?ixlib=rb-4.0.3&auto=format&fit=crop&w=1650&q=80" alt="Tas Kalea" />  
+        <h3>Tas Kalea Elegant</h3>  
+    </div>  
+    <!-- Tas 2 -->  
+    <div class="card">  
+        <img src="https://images.unsplash.com/photo-1606593381729-3cfb3979a28b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Tas Tote Kulit" />  
+        <h3>Tote Kulit Premium</h3>  
+    </div>  
+    <!-- Tas 3 -->  
+    <div class="card">  
+        <img src="https://images.unsplash.com/photo-1532306489675-c6451a6a8b9c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Tas Crossbody" />  
+        <h3>Tas Crossbody Modern</h3>  
+    </div>  
+    <!-- Tas 4 -->  
+    <div class="card">  
+        <img src="https://images.unsplash.com/photo-1572258570014-8b3b0d256d42?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Tas Clutch" />  
+        <h3>Clutch Stylish</h3>  
+    </div>  
+</div>  
+
+<!-- Pesan ke Nomor -->  
+<div class="pesanNomor">  
+    <h2>Ingin memesannya? Hubungi Nomor L 08175232900</h2>  
+    <p>Atau langsung kirim pesan melalui WhatsApp dan dapatkan penawaran menarik!</p>  
+    <a href="https://wa.me/628175232900" class="btn">Hubungi Sekarang</a>  
+</div>  
+
+<!-- Footer -->  
+<div class="footer">  
+    &copy; 2025 Kalea. Hak cipta dilindungi.  
+</div>  
+
+</body>  
+</html>  
